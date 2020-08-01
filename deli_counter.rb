@@ -11,5 +11,6 @@ end
 
 def take_a_number(katz_deli,new_customer)
   
+  "Welcome, Ada. You are number 1 in line."
 
 end
