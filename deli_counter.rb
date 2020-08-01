@@ -10,7 +10,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli,new_customer)
-  katz_deli.each.with_index{
-  puts "Welcome, #{new_customer}. You are number #{index+1} in line."}
+  katz_deli.each.with_index{|new_customer,index|
+   "Welcome, #{new_customer}. You are number #{index+1} in line."}
 
 end
